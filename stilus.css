@@ -55,3 +55,29 @@ table {
 .post{
     background-color: rgba(250,0,0,.3);
 }
+/* ==== BASE STYLE ==== */
+body{
+font-family: 'Merriweather', serif;
+font-size: 18px;
+line-height: 32px;
+color: #333;
+}
+h2,h1{
+font-family: 'Open Sans', sans-serif;
+
+}
+h1{
+	font-size: 28.8px;
+
+}
+h2{
+	font-size: 25.6px;
+	color: #e5127d;
+}
+p.main-header{
+	font-size: 18px;
+	letter-spacing: 2px;
+}
+p.header{
+	color: #8c8e9b;
+}
