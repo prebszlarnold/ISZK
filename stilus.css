@@ -146,7 +146,7 @@ pre,table,fieldset,hr,img,.main-header,.primary-content{
 .picture{
 	width:100%;
 }
-/* ==== COMPONENT STYLEs ====*/
+/* ==== COMPONENT STYLES ====*/
 .button{
 	display:inline-block;
 	border:1px solid #8c8e9b;
@@ -168,4 +168,17 @@ border:1px solid #b60e63;
 	padding: 0.625rem;
 	font-size: 1.25rem;
 	color:#8c8e9b;
+}
+figure{
+	height: 0;
+	padding-bottom: 56.25%;
+	position: relative;
+}
+figure iframe {
+	
+    position:absolute;
+	left:0;
+	top:0;
+	width: 100%;
+	height: 100%;
 }
